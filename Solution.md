@@ -98,3 +98,17 @@ After Getting all the codes,I combined the codes into one base64 encoded string.
 Command:echo aHR0cHM6Ly9naXRodWIuY29tL1RoZUh1bnRzbWFuNC9UaGVGaW5h                        bFNwZWxs | base64 --decode
 
 Result: https://github.com/TheHuntsman4/TheFinalSpell
+
+### Pushing Solution.md to git repo
+
+Command: git add
+
+Explaination: Adding the file(Solution.md)
+
+Command: git commit -m "Comitted the file Solution.md"
+
+Explaination: Saving the changes done to the file content
+
+Command: git push origin main
+
+Explaination: Pusing the changes into the git repositary(Amfoss-Tasks)
