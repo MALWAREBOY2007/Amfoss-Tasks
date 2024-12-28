@@ -40,11 +40,9 @@ Output: aHR0cHM6Ly9naX
 
 ### 3.Second Challenge:
 
-Cracking x,y: Atomic number of the element first used to make semicondutors is                        Germanium(32)
+Cracking x,y: Atomic number of the element first used to make semicondutors is Germanium(32)
 
-MIstake: At first after Googling this,it gave me the answer as silicon(14)
-
-                But,after some serious Googling in depth..i was able to find out that the                 answer is Germanium(32).
+MIstake: At first after Googling this,it gave me the answer as silicon(14) But,after some serious Googling in depth..i was able to find out that the answer is Germanium(32).
 
 Command: cd 02
 
@@ -68,9 +66,7 @@ Result: Going to the main branch.
 
 Command: git checkout defenseAganistTheDarkArts spellbook/Riddikulus.py
 
-Result: This command will copy the Riddikulus.py file from defenseAganistTheDarkArts
-
-              branch to main branch.
+Result: This command will copy the Riddikulus.py file from defenseAganistTheDarkArts branch to main branch.
 
 After this the same process as the above challenges..
 
@@ -82,8 +78,7 @@ Explaination: Shows the previous commits done by all the members
 
 After searching for the spell which is hidden in the commits logs of this repositary..
 
-Result: Hey there! The last spell is in path 0x/Spell_0y" of thegraveyard...
-             where x is the number of horcruxes made by Voldemort and y is the number              that has same alphabets as the number
+Result: Hey there! The last spell is in path 0x/Spell_0y" of thegraveyard...where x is the number of horcruxes made by Voldemort and y is the number that has same alphabets as the number
 
 Cracking x: no of horcruxes made by the voldemort are 7
 
@@ -95,7 +90,7 @@ After this the process is same as the above challenges..
 
 After Getting all the codes,I combined the codes into one base64 encoded string..
 
-Command:echo aHR0cHM6Ly9naXRodWIuY29tL1RoZUh1bnRzbWFuNC9UaGVGaW5h                        bFNwZWxs | base64 --decode
+Command:echo aHR0cHM6Ly9naXRodWIuY29tL1RoZUh1bnRzbWFuNC9UaGVGaW5h    bFNwZWxs | base64 --decode
 
 Result: https://github.com/TheHuntsman4/TheFinalSpell
 
