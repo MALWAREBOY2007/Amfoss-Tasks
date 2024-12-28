@@ -112,3 +112,7 @@ Explaination: Saving the changes done to the file content
 Command: git push origin main
 
 Explaination: Pusing the changes into the git repositary(Amfoss-Tasks)
+
+### Screenshot
+
+![](/home/m-sai-vishal/snap/marktext/9/.config/marktext/images/2024-12-28-14-07-36-Pasted%20image.png)
