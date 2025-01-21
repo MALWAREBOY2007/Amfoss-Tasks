@@ -1,0 +1,32 @@
+import 'package:flame/components.dart';
+import 'package:flutter/material.dart';
+import 'package:flame/game.dart';
+void main() {
+
+  runApp(GameWidget(game: MyGame()));
+}
+
+class MyGame extends FlameGame {
+  SpriteComponent bunny = SpriteComponent();
+  SpriteComponent background = SpriteComponent();
+  @override
+  Future<void> onLoad() async {
+    super.onLoad();
+    //load bunny
+    bunny
+      ..sprite = await loadSprite('bunny.png')
+      ..size = Vector2(300,300)
+      ..position = Vector2(100,400);
+    //load background
+    add(background 
+      ..sprite = await loadSprite('background.png')
+      ..size =canvasSize
+      ..position = Vector2.zero());
+    add(bunny);
+  }
+  @override
+  void update(double dt) {
+    super.update(dt);
+    bunny.x =bunny.x +1;
+  }
+}
